@@ -16,7 +16,7 @@ class Figure:
             for j in range(len(i.coordinates)):
                 i.coordinates[j] += self.coordinates[j]
         self.dxd=[0.5,0.5,0,1]
-
+        self.pass1 = None
         self.edgez = []
 
 
